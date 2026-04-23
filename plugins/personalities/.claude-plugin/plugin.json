@@ -1,0 +1,9 @@
+{
+  "name": "personalities",
+  "version": "0.1.0",
+  "description": "A collection of output styles that give Claude different personalities.",
+  "author": {
+    "name": "Phi Labs Ltd",
+    "email": "accounts+contracts@philabs.xyz"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Phi Labs Ltd",
+  "owner": {
+    "name": "phi-labs-ltd",
+    "email": "accounts+contracts@philabs.xyz"
+  },
+  "description": "A collection of Claude Code plugins by and for Phi Labs Ltd.",
+  "plugins": [
+    {
+      "name": "personalities",
+      "source": "./plugins/personalities",
+      "description": "A collection of output styles that give Claude different personalities."
+    }
+  ]
+}

@@ -4,7 +4,12 @@
   "description": "A collection of output styles that give Claude different personalities.",
   "author": {
     "name": "Phi Labs Ltd",
-    "email": "accounts+contracts@philabs.xyz"
+    "email": "accounts+contracts@philabs.xyz",
+    "url": "https://philabs.xyz"
   },
-  "keywords": ["output-styles", "personalities", "claude-code"]
+  "homepage": "https://github.com/phi-labs-ltd/claude#readme",
+  "repository": "https://github.com/phi-labs-ltd/claude",
+  "license": "GPL-3.0",
+  "keywords": ["output-styles", "personalities", "claude-code"],
+  "outputStyles": "./output-styles/"
 }

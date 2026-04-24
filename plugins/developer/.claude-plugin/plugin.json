@@ -4,7 +4,13 @@
   "description": "Developer tooling for Phi Labs Ltd.",
   "author": {
     "name": "Phi Labs Ltd",
-    "email": "accounts+contracts@philabs.xyz"
+    "email": "accounts+contracts@philabs.xyz",
+    "url": "https://philabs.xyz"
   },
-  "keywords": ["developer", "claude-code"]
+  "homepage": "https://github.com/phi-labs-ltd/claude#readme",
+  "repository": "https://github.com/phi-labs-ltd/claude",
+  "license": "GPL-3.0",
+  "keywords": ["developer", "claude-code"],
+  "agents": "./agents/",
+  "skills": "./skills/"
 }

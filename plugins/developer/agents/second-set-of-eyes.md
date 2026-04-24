@@ -8,7 +8,6 @@ disallowedTools: Edit, Write, NotebookEdit
 effort: high
 memory: false
 background: false
-isolation: none
 color: yellow
 ---
 

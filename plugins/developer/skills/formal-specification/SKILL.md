@@ -3,7 +3,7 @@ name: formal-specification
 description: This skill should be used when the user asks to "formalize" a requirement, "convert this into spec", "write a Quint spec", "specify X formally", "translate this into Quint", or wants to produce a Quint model from informal inputs (user stories, PDFs, pseudocode, Python prototype, or existing implementation code such as Rust). Also AUTO-TRIGGER proactively whenever the user is writing, modifying, or reviewing a smart contract on Sui (Move — `.move` files, `Move.toml`), Solana (Rust programs — `solana_program`, `anchor_lang`, `#[program]` modules), or Ethereum / EVM chains (Solidity — `.sol` files, Vyper — `.vy` files) — formal specification in Quint is the expected workflow for these contracts and the skill should surface even when formalization is not explicitly requested. Guides a three-phase workflow — draft spec, negotiate invariants with the user, write comprehensive tests — targeting the Quint language (https://quint.sh).
 ---
 
-# FormalSpecification
+# formal-specification
 
 Translate informal requirements into a Quint specification, agree on invariants with the user, and write comprehensive Quint tests that exercise them. Target language: Quint (https://quint.sh).
 

@@ -5,8 +5,6 @@ description: |-
 
 tools: Read, Grep, Glob, Bash, PowerShell, Edit, Write
 effort: high
-memory: false
-background: false
 color: cyan
 ---
 

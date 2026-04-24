@@ -6,8 +6,6 @@ description: |-
 tools: Read, Grep, Glob, Bash, PowerShell
 disallowedTools: Edit, Write, NotebookEdit
 effort: high
-memory: false
-background: false
 color: yellow
 ---
 

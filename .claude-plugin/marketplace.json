@@ -15,6 +15,11 @@
       "name": "developer",
       "source": "./plugins/developer",
       "description": "Developer tooling for Phi Labs Ltd."
+    },
+    {
+      "name": "bolt-theme",
+      "source": "./plugins/bolt-theme",
+      "description": "A Claude Code color theme inspired by Bolt Liquidity — dark base with Bolt's signature yellow accent."
     }
   ]
 }

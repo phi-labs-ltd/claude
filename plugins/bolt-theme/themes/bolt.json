@@ -1,0 +1,9 @@
+{
+  "name": "Bolt Liquidity",
+  "base": "dark",
+  "overrides": {
+    "claude": "#FFED2C",
+    "success": "#FFFBD5",
+    "error": "#EA384C"
+  }
+}

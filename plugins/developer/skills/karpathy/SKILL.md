@@ -1,6 +1,6 @@
 ---
 name: karpathy
-description: Engineering discipline for writing, editing, and refactoring code — think before coding, keep it simple, make surgical changes, and execute against verifiable goals. Apply whenever the task involves producing or modifying code (features, fixes, refactors), especially non-trivial changes where over-engineering, scope creep, or ambiguous success criteria are likely. Skip for purely exploratory questions, documentation-only edits, or throwaway one-liners.
+description: Engineering discipline for writing, editing, and refactoring code — think before coding, keep it simple, make surgical changes, and execute against verifiable goals. Apply whenever the task involves producing or modifying code (features, fixes, refactors), especially non-trivial changes where over-engineering, scope creep, or ambiguous success criteria are likely. Skip for purely exploratory questions, documentation-only edits, or throwaway one-liners. Derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls
 ---
 
 # Karpathy

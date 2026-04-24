@@ -1,0 +1,10 @@
+{
+  "name": "developer",
+  "version": "0.1.0",
+  "description": "Developer tooling for Phi Labs Ltd.",
+  "author": {
+    "name": "Phi Labs Ltd",
+    "email": "accounts+contracts@philabs.xyz"
+  },
+  "keywords": ["developer", "claude-code"]
+}

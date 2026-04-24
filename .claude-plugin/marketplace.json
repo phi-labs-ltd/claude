@@ -10,6 +10,11 @@
       "name": "personalities",
       "source": "./plugins/personalities",
       "description": "A collection of output styles that give Claude different personalities."
+    },
+    {
+      "name": "developer",
+      "source": "./plugins/developer",
+      "description": "Developer tooling for Phi Labs Ltd."
     }
   ]
 }

@@ -4,8 +4,6 @@ description: |-
   Use this agent to produce a Quint formal specification from any input — user stories, a Linear/RFC ticket, a PDF, pseudocode, a Python prototype, or an existing implementation (Rust, Move, Solidity, etc.). The agent works from a protocol-designer mindset: it models what the protocol should do, not what the code currently does, and will deliberately diverge from the implementation when the implementation is missing an invariant, a guard, or an error branch. Trigger when the user asks to "write a spec", "formalize this", "draft a Quint spec", "specify this protocol", or asks for help designing invariants. Also trigger proactively when the user is authoring or modifying a smart contract on Sui (Move), Solana (Rust programs), or Ethereum / EVM chains (Solidity, Vyper) — formal specification is the expected workflow for these contracts.
 
 tools: Read, Grep, Glob, Bash, PowerShell, Edit, Write
-skills:
-  - formal-specification
 effort: high
 memory: false
 background: false

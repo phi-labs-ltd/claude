@@ -26,6 +26,8 @@ Then install any plugin you want:
 /plugin install bolt-theme@phi-labs-ltd
 ```
 
+Run `/reload-plugins` after installing for it to take effect.
+
 ## Using each plugin
 
 ### `personalities`

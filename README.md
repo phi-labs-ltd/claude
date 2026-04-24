@@ -49,3 +49,6 @@ Pick a voice with `/config` → **Output style** → **personalities:crypto-bro*
 ### `bolt-theme`
 
 Run `/theme` and pick **Bolt Liquidity** — a dark base with Bolt's signature yellow (`#FFED2C`) for Claude's voice.
+
+
+![Screenshot of Bolt Theme](./assets/theme.png)

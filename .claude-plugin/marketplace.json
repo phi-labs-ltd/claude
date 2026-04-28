@@ -20,6 +20,11 @@
       "name": "bolt-theme",
       "source": "./plugins/bolt-theme",
       "description": "A Claude Code color theme inspired by Bolt Liquidity — dark base with Bolt's signature yellow accent."
+    },
+    {
+      "name": "liquidity-team",
+      "source": "./plugins/liquidity-team",
+      "description": "Tooling for the Phi Labs liquidity team"
     }
   ]
 }

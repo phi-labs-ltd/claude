@@ -9,6 +9,7 @@ Claude Code plugins by and for Phi Labs Ltd.
 | [`personalities`](./plugins/personalities) | Output styles | Different voices for Claude. Currently: **Crypto Bro**. |
 | [`developer`](./plugins/developer) | Agents, skills | Developer tooling. Currently: the **`second-set-of-eyes`** review agent, the **`protocol-formalizer`** Quint-spec agent, the **`karpathy`** engineering-discipline skill, and the **`FormalSpecification`** Quint-spec skill. |
 | [`bolt-theme`](./plugins/bolt-theme) | Theme | A dark color theme with Bolt Liquidity's signature yellow accent. |
+| [`liquidity-team`](./plugins/liquidity-team) | Skills | Tooling for the liquidity team. |
 
 ## Install
 
@@ -24,6 +25,7 @@ Then install any plugin you want:
 /plugin install personalities@phi-labs-ltd
 /plugin install developer@phi-labs-ltd
 /plugin install bolt-theme@phi-labs-ltd
+/plugin install liquidity-team@phi-labs-ltd
 ```
 
 Run `/reload-plugins` after installing for it to take effect.
@@ -52,3 +54,9 @@ Run `/theme` and pick **Bolt Liquidity** — a dark base with Bolt's signature y
 
 
 ![Screenshot of Bolt Theme](./assets/theme.png)
+
+### `liquidity-team`
+
+#### Skills
+
+- **`bolt-pricefeeder-deployer`** — a skill for the liquidity team to validate calibration / parameter-update requests for [bolt-pricefeeder](https://github.com/phi-labs-ltd/bolt-pricefeeder) before they become a Linear ticket. Triggers automatically whenever pricefeeder knobs are being discussed (chat messages, pasted tables, casual proposals like "can we bump `base_alpha` to 0.012?"). Fetches the latest released config schema from GitHub Pages, classifies each proposed knob as `DIRECT MATCH` / `NAME TRANSLATION` / `UNIT DRIFT` (decimal-on-`Bps` field, off by 10000×) / `UNKNOWN`, and surfaces every discrepancy as an explicit question — never silently rewrites a name or auto-converts a unit.

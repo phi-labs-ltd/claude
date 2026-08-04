@@ -1,0 +1,21 @@
+{
+  "name": "infrastructure",
+  "version": "0.1.0",
+  "description": "Tooling for the Phi Labs infrastructure repo.",
+  "author": {
+    "name": "Phi Labs Ltd",
+    "email": "accounts+contracts@philabs.xyz",
+    "url": "https://philabs.xyz"
+  },
+  "homepage": "https://github.com/phi-labs-ltd/claude#readme",
+  "repository": "https://github.com/phi-labs-ltd/claude",
+  "license": "GPL-3.0",
+  "keywords": [
+    "infrastructure",
+    "grafana",
+    "monitoring",
+    "dashboards",
+    "terraform",
+    "claude-code"
+  ]
+}

@@ -25,6 +25,11 @@
       "name": "liquidity-team",
       "source": "./plugins/liquidity-team",
       "description": "Tooling for the Phi Labs liquidity team"
+    },
+    {
+      "name": "infrastructure",
+      "source": "./plugins/infrastructure",
+      "description": "Tooling for the Phi Labs infrastructure repo"
     }
   ]
 }
